@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-title: reaction-mechanism-digital-twin
+title: reaction-mechanism-analysis-starter
 message: Cite this software and the scientific methods used in the selected workflow.
 type: software
-version: 0.1.0
+version: 0.2.0
 date-released: 2026-07-30
 license: MIT
-repository-code: https://github.com/vicena-labs/reaction-mechanism-digital-twin
+repository-code: https://github.com/vicena-labs/reaction-mechanism-analysis-starter
