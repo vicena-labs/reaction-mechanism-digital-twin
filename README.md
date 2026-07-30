@@ -68,7 +68,7 @@ The repository guides users through eight explicit stages. Each stage records wh
 | 7. Preserve failures | Save failed candidates, warnings, UUIDs, settings, and rejection reasons. | Repository and provenance contracts implemented. |
 | 8. Compare uncertainty | Compare compatible methods, experimental evidence, standard states, and sensitivity. | Local analysis hooks and synthetic examples implemented. |
 
-See [the guided workflow document](docs/GUIDED_WORKFLOW.md) for inputs, completion gates, output files, and remote-compute boundaries.
+See [the guided workflow document](docs/GUIDED_WORKFLOW.md) for inputs, completion gates, output files, and remote-compute boundaries. Start with the [guided workflow notebook](notebooks/00_guided_mechanism_workflow.ipynb) for a rerunnable status dashboard.
 
 ## What release 0.2.0 provides
 
