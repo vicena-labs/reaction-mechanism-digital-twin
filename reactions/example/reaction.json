@@ -1,0 +1,101 @@
+{
+  "reaction_id": "diels-alder-butadiene-ethylene",
+  "reaction_smiles": "[CH2:1]=[CH:2][CH:3]=[CH2:4].[CH2:5]=[CH2:6]>>[CH2:1]1[CH:2]=[CH:3][CH2:4][CH2:5][CH2:6]1",
+  "reactants": [
+    {
+      "name": "butadiene",
+      "elements": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H"
+      ],
+      "charge": 0,
+      "multiplicity": 1
+    },
+    {
+      "name": "ethylene",
+      "elements": [
+        "C",
+        "C",
+        "H",
+        "H",
+        "H",
+        "H"
+      ],
+      "charge": 0,
+      "multiplicity": 1
+    }
+  ],
+  "products": [
+    {
+      "name": "cyclohexene",
+      "elements": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H"
+      ],
+      "charge": 0,
+      "multiplicity": 1
+    }
+  ],
+  "charge": 0,
+  "multiplicity": 1,
+  "atom_mapping": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    5,
+    6,
+    13,
+    14,
+    15,
+    16
+  ],
+  "conditions": {
+    "phase": "gas",
+    "temperature_K": 298.15,
+    "pressure_Pa": 101325,
+    "solvent": null
+  },
+  "forming_bonds": [
+    [
+      1,
+      6
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "literature": {
+    "activation_kcal_mol": 27.0,
+    "url": "https://doi.org/10.1016/j.heliyon.2020.e04655"
+  }
+}

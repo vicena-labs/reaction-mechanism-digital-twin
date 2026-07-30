@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "title": "Cyclohexene Rowan conformer result",
+  "description": "Collected Rowan conformer-search result geometry.",
+  "structures": [
+    {
+      "path": "product_rowan_conformer.xyz",
+      "title": "Cyclohexene Rowan conformer",
+      "format": "xyz",
+      "style": "sticks"
+    }
+  ],
+  "result": {
+    "provider": "Rowan",
+    "workflow": "conformer_search",
+    "workflowUuid": "3d530210-368d-4296-9460-94b383d7295a",
+    "status": "completed-ok",
+    "method": "aimnet2_wb97md3",
+    "summary": "One collected cyclohexene conformer. This is endpoint preparation, not mechanism validation."
+  },
+  "properties": [
+    {
+      "label": "provider path energies[0]",
+      "value": -234.80424401193108
+    },
+    {
+      "label": "Conformers returned",
+      "value": 1
+    },
+    {
+      "label": "Radius of gyration",
+      "value": 1.584
+    }
+  ]
+}

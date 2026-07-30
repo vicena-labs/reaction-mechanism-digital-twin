@@ -1,0 +1,2 @@
+temperature_K,rate_constant_s-1,uncertainty_fraction,source
+298.15,9.0e-8,0.25,synthetic fixture

@@ -1,0 +1,2 @@
+# Reaction data contract
+Require mapped structures or reaction SMILES, native coordinates, element lists, charge, multiplicity, atom order, solvent, temperature, pressure, concentration or standard state, provenance, uncertainty, and calibration or validation role. Experimental observations require observable, value, unit, conditions, uncertainty when available, and source. Missing metadata are errors.

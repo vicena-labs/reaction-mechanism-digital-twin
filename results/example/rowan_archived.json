@@ -1,0 +1,75 @@
+{
+  "workflow_uuid": "ARCHIVED-NOT-LIVE",
+  "task_key": "archived-example",
+  "workflow_type": "double_ended_ts_search",
+  "status": "ARCHIVED_SYNTHETIC",
+  "endpoint_hashes": {
+    "reactant": "fixture",
+    "product": "fixture"
+  },
+  "settings": {
+    "method": "illustrative",
+    "charge": 0,
+    "multiplicity": 1,
+    "solvent": null,
+    "temperature_K": 298.15,
+    "atom_order": "1..16",
+    "max_vicena_credits": 0
+  },
+  "timestamps": {
+    "created": "2026-07-30T00:00:00Z"
+  },
+  "result_paths": [
+    "results/example/archived_result.json"
+  ],
+  "acceptance_outcome": "logic fixture only",
+  "result": {
+    "data_class": "synthetic archived fixture, not a quantum calculation",
+    "method": "illustrative values",
+    "temperature_K": 298.15,
+    "charge": 0,
+    "multiplicity": 1,
+    "energies_hartree": {
+      "reactant": -232.0,
+      "ts": -231.9569739,
+      "product": -232.063744
+    },
+    "frequencies_cm1": [
+      -510,
+      120,
+      185,
+      240,
+      310
+    ],
+    "imaginary_mode_relevant": true,
+    "mapping_consistent": true,
+    "geometry_plausible": true,
+    "irc": {
+      "backward_endpoint": "reactant",
+      "forward_endpoint": "product",
+      "coordinate": [
+        -1,
+        -0.5,
+        0,
+        0.5,
+        1
+      ],
+      "relative_kcal_mol": [
+        0,
+        10,
+        27,
+        5,
+        -40
+      ]
+    },
+    "method_sensitivity_kcal_mol": {
+      "illustrative_A": 27.0,
+      "illustrative_B": 29.5,
+      "illustrative_C": 24.8
+    },
+    "uncertainty_kcal_mol": {
+      "activation": 3.0,
+      "reaction": 4.0
+    }
+  }
+}

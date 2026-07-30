@@ -1,0 +1,19 @@
+{
+  "energetics": {
+    "activation_kcal_mol": 26.999285379266144,
+    "reaction_kcal_mol": -39.99996391066479
+  },
+  "ts_acceptance": {
+    "accepted": true,
+    "checks": {
+      "one_relevant_imaginary": true,
+      "mapping": true,
+      "geometry": true,
+      "irc_backward": true,
+      "irc_forward": true
+    },
+    "imaginary_count": 1
+  },
+  "eyring_298K_s-1": 1.006117140130213e-07,
+  "status": "synthetic fixture only"
+}

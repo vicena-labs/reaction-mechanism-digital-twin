@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "reaction_id",
+    "reactants",
+    "products",
+    "charge",
+    "multiplicity",
+    "atom_mapping",
+    "conditions"
+  ]
+}

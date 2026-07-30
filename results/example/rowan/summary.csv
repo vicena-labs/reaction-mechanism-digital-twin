@@ -1,0 +1,2 @@
+task_key,name,workflow_type,workflow_uuid,status,max_credits,result_path,failure_log_path,result_error,failure_phase,failure_kind
+f43370cdba3ac6d039a29b05,Diels-Alder cyclohexene product conformers,conformer_search,3d530210-368d-4296-9460-94b383d7295a,completed-ok,1,/root/sessions/476_open-source-reaction-mechanism-twin/rowan_results/diels_alder_cyclohexene_product_conformers_f43370cdba3ac6d039a29b05_raw.json,,,,

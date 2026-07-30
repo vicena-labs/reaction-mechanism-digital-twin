@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "title": "Diels-Alder archived endpoint and TS-proxy scene",
+  "description": "RDKit MMFF endpoint geometries and a labeled midpoint proxy. No quantum TS claim.",
+  "layout": {
+    "rows": 1,
+    "cols": 3,
+    "sync": true
+  },
+  "structures": [
+    {
+      "path": "reactant.xyz",
+      "title": "Reactant endpoint",
+      "format": "xyz",
+      "style": "sticks",
+      "viewer": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "ts_proxy.xyz",
+      "title": "TS visual proxy",
+      "format": "xyz",
+      "style": "sticks",
+      "viewer": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "product.xyz",
+      "title": "Product endpoint",
+      "format": "xyz",
+      "style": "sticks",
+      "viewer": [
+        0,
+        2
+      ]
+    }
+  ],
+  "result": {
+    "provider": "Local archived fixture",
+    "workflow": "visualization proxy",
+    "status": "SYNTHETIC",
+    "summary": "No Rowan job submitted"
+  },
+  "properties": [
+    {
+      "label": "Literature barrier reference",
+      "value": 27.0,
+      "unit": "kcal/mol"
+    }
+  ],
+  "annotations": [
+    {
+      "type": "label",
+      "viewer": [
+        0,
+        1
+      ],
+      "text": "Not a computed transition state",
+      "position": {
+        "x": 0,
+        "y": 3,
+        "z": 0
+      }
+    }
+  ]
+}

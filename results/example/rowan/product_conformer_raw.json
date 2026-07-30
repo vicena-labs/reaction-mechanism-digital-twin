@@ -1,0 +1,214 @@
+{
+  "conf_gen_settings": {
+    "constraints": [],
+    "do_final_refine": true,
+    "energy_window_kcal": 10.0,
+    "final_select": "diverse",
+    "n_steps": 200,
+    "nci": false,
+    "parent_strategy": "softmax",
+    "settings_type": "openconf"
+  },
+  "conformer_properties": [
+    {
+      "polar_solvent_accessible_surface_area": 0.0,
+      "radius_of_gyration": 1.584,
+      "solvent_accessible_surface_area": 262.643
+    }
+  ],
+  "conformer_uuids": [
+    [
+      "bf9a80dc-fc4b-4c8f-a905-2d5b547a081e"
+    ]
+  ],
+  "constraints": [],
+  "energies": [
+    -234.80424401193108
+  ],
+  "ensemble_properties": {
+    "polar_solvent_accessible_surface_area": 0.0,
+    "radius_of_gyration": 1.584,
+    "solvent_accessible_surface_area": 262.643
+  },
+  "initial_conformers": [],
+  "initial_molecule": {
+    "atoms": [
+      {
+        "atomic_number": 6,
+        "position": [
+          0.70729978,
+          -1.28850608,
+          -0.29437854
+        ]
+      },
+      {
+        "atomic_number": 6,
+        "position": [
+          1.46086338,
+          -0.01655531,
+          -0.5541887
+        ]
+      },
+      {
+        "atomic_number": 6,
+        "position": [
+          0.94870966,
+          1.20028144,
+          -0.3174825
+        ]
+      },
+      {
+        "atomic_number": 6,
+        "position": [
+          -0.44378243,
+          1.4179634,
+          0.1990439
+        ]
+      },
+      {
+        "atomic_number": 6,
+        "position": [
+          -1.31716492,
+          0.1632261,
+          0.11739669
+        ]
+      },
+      {
+        "atomic_number": 6,
+        "position": [
+          -0.54763937,
+          -1.07933163,
+          0.55720909
+        ]
+      },
+      {
+        "atomic_number": 1,
+        "position": [
+          0.43076044,
+          -1.72943519,
+          -1.2594801
+        ]
+      },
+      {
+        "atomic_number": 1,
+        "position": [
+          1.36514335,
+          -2.00530677,
+          0.21002278
+        ]
+      },
+      {
+        "atomic_number": 1,
+        "position": [
+          2.46963092,
+          -0.10779028,
+          -0.9491322
+        ]
+      },
+      {
+        "atomic_number": 1,
+        "position": [
+          1.55314709,
+          2.08401706,
+          -0.50611597
+        ]
+      },
+      {
+        "atomic_number": 1,
+        "position": [
+          -0.92200387,
+          2.22299753,
+          -0.37034747
+        ]
+      },
+      {
+        "atomic_number": 1,
+        "position": [
+          -0.37716015,
+          1.75578181,
+          1.24007869
+        ]
+      },
+      {
+        "atomic_number": 1,
+        "position": [
+          -2.20960848,
+          0.29409474,
+          0.73972563
+        ]
+      },
+      {
+        "atomic_number": 1,
+        "position": [
+          -1.66626199,
+          0.02619008,
+          -0.91416538
+        ]
+      },
+      {
+        "atomic_number": 1,
+        "position": [
+          -0.26156647,
+          -0.97325664,
+          1.611571
+        ]
+      },
+      {
+        "atomic_number": 1,
+        "position": [
+          -1.19036696,
+          -1.96437024,
+          0.49024309
+        ]
+      }
+    ],
+    "charge": 0,
+    "multiplicity": 1,
+    "smiles": "C1=CCCCC1"
+  },
+  "initial_smiles": "",
+  "messages": [],
+  "mode": "rapid",
+  "multistage_opt_settings": {
+    "frequencies": false,
+    "optimization_settings": [
+      {
+        "compute_settings": {
+          "requested_compute_type": "cpu"
+        },
+        "corrections": [],
+        "engine": "aimnet2",
+        "level_of_theory": "aimnet2_wb97md3",
+        "method": "aimnet2_wb97md3",
+        "mode": "rapid",
+        "opt_settings": {
+          "constraints": [],
+          "energy_threshold": 5e-05,
+          "max_displacement_threshold": 0.002,
+          "max_gradient_threshold": 0.005,
+          "max_steps": 250,
+          "optimize_cell": false,
+          "recalc_hess_every": 0,
+          "rms_displacement_threshold": 0.001,
+          "rms_gradient_threshold": 0.0035,
+          "save_intermediate_steps": true,
+          "transition_state": false
+        },
+        "scf_settings": {
+          "max_iters": 250,
+          "soscf": "upon_failure"
+        },
+        "tasks": [
+          "optimize"
+        ],
+        "thermochem_settings": {
+          "concentration": 0.0408740470708,
+          "cutoff_frequency": 100.0,
+          "scaling_factor": 1.0,
+          "temperature": 298.0
+        }
+      }
+    ]
+  },
+  "nci": false
+}

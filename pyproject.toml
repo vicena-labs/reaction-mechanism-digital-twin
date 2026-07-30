@@ -1,0 +1,13 @@
+[build-system]
+requires=["setuptools>=68","wheel"]
+build-backend="setuptools.build_meta"
+[project]
+name="reaction-mechanism-digital-twin"
+version="0.1.0"
+requires-python=">=3.10"
+dependencies=["numpy","pandas","matplotlib","jsonschema"]
+[project.optional-dependencies]
+chem=["rdkit","py3Dmol"]
+dev=["pytest","pypdf"]
+[tool.setuptools.packages.find]
+where=["src"]

@@ -1,0 +1,45 @@
+{
+  "provider": "Rowan",
+  "workflow_type": "conformer_search",
+  "workflow_uuid": "3d530210-368d-4296-9460-94b383d7295a",
+  "task_key": "f43370cdba3ac6d039a29b05",
+  "name": "Diels-Alder cyclohexene product conformers",
+  "input": {
+    "smiles_submitted": "C1C=CCCC1",
+    "canonical_smiles_returned": "C1=CCCCC1",
+    "charge": 0,
+    "multiplicity": 1
+  },
+  "settings": {
+    "final_method": "aimnet2_wb97md3",
+    "mode_returned": "rapid",
+    "solvent": null,
+    "temperature_K": null
+  },
+  "budget": {
+    "authorized_vicena_credits": 100,
+    "conversion_vicena_per_rowan_credit": 100,
+    "rowan_credits_charged": 0.37,
+    "estimated_vicena_credits_charged": 37
+  },
+  "status": "completed-ok",
+  "started_at": "2026-07-30T22:14:19.529397+00:00",
+  "completed_at": "2026-07-30T22:14:41.539145+00:00",
+  "outputs": {
+    "raw_result": "product_conformer_raw.json",
+    "summary": "summary.csv",
+    "structure": "../structures/product_rowan_conformer.xyz",
+    "scene": "../structures/product_rowan_conformer.molscene.json",
+    "conformer_uuid": "bf9a80dc-fc4b-4c8f-a905-2d5b547a081e",
+    "provider_energy_path": "energies[0]",
+    "provider_energy_value": -234.80424401193108
+  },
+  "acceptance": {
+    "endpoint_conformer_collected": true,
+    "reaction_path_validated": false,
+    "transition_state_validated": false,
+    "frequencies_validated": false,
+    "irc_validated": false,
+    "statement": "This result supports product endpoint preparation only."
+  }
+}

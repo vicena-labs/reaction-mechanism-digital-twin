@@ -1,0 +1,2 @@
+# Rowan workflow ladder
+After approval: conformer search, endpoint multistage optimization, endpoint frequencies when appropriate, double-ended TS search with matched atom order, TS optimization, frequencies, bidirectional IRC, thermochemistry, one bounded sensitivity calculation, and optional forming-bond scan. Use the unchanged Vicena runner in Compute Shell, JSON sidecars, stable task keys, immediate UUID persistence, explicit budget caps, raw result archiving, and no resubmission of pending or completed work. No paid job is included in release 0.1.0.

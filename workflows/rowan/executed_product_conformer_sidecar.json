@@ -1,0 +1,11 @@
+[
+  {
+    "workflow_type": "conformer_search",
+    "name": "Diels-Alder cyclohexene product conformers",
+    "smiles": "C1C=CCCC1",
+    "input_kind": "molecule",
+    "input_arg": "initial_molecule",
+    "params": {"final_method": "aimnet2_wb97md3"},
+    "max_vicena_credits": 100
+  }
+]

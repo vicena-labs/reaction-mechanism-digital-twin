@@ -1,0 +1,2 @@
+# Model card
+Validation Level 0 executable reference. Bundled energies, frequencies, and IRC points are synthetic archived fixtures for software tests, not Rowan calculations. Limitations include electronic-structure error, conformer incompleteness, standard states, entropy, tunneling, anharmonicity, recrossing, solvent models, dynamics, multireference character, atom mapping, and experimental-condition mismatch.

@@ -1,0 +1,2 @@
+# Agent playbook
+1. Read repository instructions and skill. 2. Run tests and archived baseline. 3. Validate reaction, structures, mapping, spin, charge, conditions, and literature comparability. 4. Create a new reaction folder without overwriting the example. 5. Before paid work, propose exact Rowan stages and request a credit cap. 6. Use stable task keys and reuse saved UUIDs. 7. Apply the TS frequency and path gate. 8. Report successful, partial, or failed validation honestly.

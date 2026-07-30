@@ -1,0 +1,1 @@
+[{"workflow_type":"conformer_search","name":"validated endpoint conformers","smiles":"REPLACE_AFTER_VALIDATION","input_kind":"molecule","input_arg":"initial_molecule","params":{"final_method":"aimnet2_wb97md3"},"max_vicena_credits":"REQUIRES_EXPLICIT_APPROVAL"}]
