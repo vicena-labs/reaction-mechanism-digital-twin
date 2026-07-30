@@ -1,5 +1,17 @@
-<p align="center"><a href="https://vicena.ai"><strong>Vicena</strong></a></p>
-<p align="center"><strong>Built with Vicena</strong><br>Vicena combines AI-assisted research, durable files, Jupyter notebooks, reproducible computation, literature tools, and protected remote scientific compute.</p>
+<p align="center">
+  <a href="https://vicena.ai"><img src="assets/vicena-logo.png" alt="Vicena" width="150"></a>
+</p>
+<p align="center"><strong>Built with Vicena</strong></p>
+<p align="center">Vicena is a scientific research workspace that combines AI-assisted research, durable project files, Jupyter notebooks, reproducible computation, literature tools, and protected remote scientific compute in one environment.</p>
+
+<p align="center">
+  <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-F8C73A">
+  <img alt="Python 3.10 to 3.13" src="https://img.shields.io/badge/python-3.10%20to%203.13-3F7CAC">
+  <img alt="Tests 12 passed" src="https://img.shields.io/badge/tests-12%20passed-2A9D8F">
+  <img alt="Rowan jobs 1 completed" src="https://img.shields.io/badge/Rowan-1%20completed-394452">
+</p>
+
+---
 
 # Reaction Mechanism Digital Twin
 
@@ -7,7 +19,17 @@ A vendor-neutral, calibratable R&D twin for molecular reaction-mechanism analysi
 
 [Installation](#installation) | [60-second example](#60-second-archived-example) | [10-minute analysis](#10-minute-local-analysis) | [Upload](#upload-a-new-reaction) | [Scientific status](#scientific-status) | [AI agent](#use-this-repository-with-an-ai-agent) | [License](#license)
 
-[![One-page overview](assets/reaction-mechanism-digital-twin-onepager.png)](Reaction_Mechanism_Digital_Twin_OnePager.pdf)
+[![Vicena-branded one-page overview showing the archived energy fixture and Rowan cyclohexene conformer](assets/reaction-mechanism-digital-twin-onepager.png)](Reaction_Mechanism_Digital_Twin_OnePager.pdf)
+
+## Visual results
+
+| Declared reaction | Rowan endpoint conformer |
+| --- | --- |
+| ![Butadiene and ethylene to cyclohexene reaction scheme](assets/reaction-scheme.png) | ![Rowan-returned cyclohexene conformer](assets/rowan-cyclohexene-conformer.png) |
+
+The Rowan panel is generated from the saved provider coordinates. Open the [native interactive molecule scene](results/example/structures/product_rowan_conformer.molscene.json) or rerun [the Rowan analysis notebook](notebooks/07_rowan_product_conformer_analysis.ipynb). The archived energy profile is a synthetic software fixture and is explicitly not presented as a Rowan TS or IRC result.
+
+![Archived synthetic pathway logic fixture](assets/archived-energy-profile.png)
 
 ## What release 0.1.0 provides
 - Installable package, schemas, safe archived fixtures, tests, scripts, notebooks, structures, plots, report, and native `*.molscene.json` scene.
